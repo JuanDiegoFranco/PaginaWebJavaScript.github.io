@@ -6,6 +6,54 @@ body, html {
 
 
 .hero-section {
+    margin-left: -47px;
+     background-color: #f47373;
+     color: white;
+     text-align: center;
+     gap: -8;
+ }
+ .navbar-brand img {
+     max-height: 130px;
+     margin-left: 120px;
+ }
+ .hero-section .col-lg-6 img {
+     width: 100%;
+     height: 60vh;
+     object-fit: cover;
+ }
+
+ #no{
+    margin-top: 200px;
+}
+ .seperador-linea {
+     width: 500px;
+     height: 1px;
+     background-color: white;
+     margin: 0 auto 20px auto;
+ }
+ .about-section {
+     background-color: #BFB882;
+     color: white;
+ }
+ .about-section .col-lg-6 img {
+     width: 100%;
+     height: 60vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .hero-section {
    margin-left: -47px;
     background-color: #f47373;
     color: white;
@@ -50,7 +98,7 @@ body, html {
     
     
     
-}
+} */
 
 
 
@@ -223,7 +271,13 @@ body, html {
 
 
 .section-cartas {
-    background-color: rgb(233, 233, 233); /* Fondo gris claro */
-    width: 100%; /* Ancho completo */
-    padding: 40px 0; /* Espaciado superior e inferior */
+    background-color: rgb(233, 233, 233); 
+    width: 100%; 
+    padding: 40px 0; 
+}
+
+@media (max-width: 976px) {
+    #no{
+        margin-bottom: 100px;
+    }
 }
